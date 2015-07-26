@@ -12,7 +12,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-#he data
+#The Data
 
 The dataset includes the following files:
 
@@ -42,13 +42,13 @@ The following files are available for the train and test data. Their description
 
     'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
-#Varibles
+#Variables
 
-    Values of Varible `Activity` consist of data from “Y_train.txt” and “Y_test.txt”
-    values of Varible `Subject` consist of data from “subject_train.txt” and subject_test.txt"
-    Values of Varibles `Features` consist of data from “X_train.txt” and “X_test.txt”
-    Names of Varibles `Features` come from “features.txt”
-    levels of Varible `Activity` come from “activity_labels.txt”
+    Values of Variable `Activity` consist of data from “Y_train.txt” and “Y_test.txt”
+    values of Variable `Subject` consist of data from “subject_train.txt” and subject_test.txt"
+    Values of Variables `Features` consist of data from “X_train.txt” and “X_test.txt”
+    Names of Variables `Features` come from “features.txt”
+    levels of Variable `Activity` come from “activity_labels.txt”
 
  We will use `Activity`, `Subject` and `Features` as part of descriptive variable names for data in data frame.
  
