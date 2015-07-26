@@ -22,7 +22,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * The Code will create a directory in the current R working directory called `data`
 	
 * `run_analysis.R` will download a zip file called `Dataset.zip` from provided link at the top in the `./data` working directory
-*  The code will unzipped files in the `folderUCI HAR Dataset`
+*  The code will unzipped files in the `folderUCI HAR Dataset` directory
 * As an out put a tidy data set will be created in the current `./data` directory called `tidydata.txt`
 	 
 ## Dependencies 
