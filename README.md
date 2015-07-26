@@ -19,10 +19,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 	
 * Add `run_analysis.R` source the `run_analysis.R` provided in you r working directory directory in R Studio
 		`source('~/run_analysis.R')` 
-		In order to run the thi project you will need to install `plyr` package in R Studio
 * The Code will create a directory in the current R working directory called `data`
 	
 * `run_analysis.R` will download a zip file called `Dataset.zip` from provided link at the top in the `./data` working directory
 * Unzipped files are in the `folderUCI HAR Dataset`
 * As an out put a tidy data set will be created in the current `./data` directory called `tidydata.txt`
 	 
+## Dependencies 
+	In order to run the this project you will need to install `plyr` package in R Studio
