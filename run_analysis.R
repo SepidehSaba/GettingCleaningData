@@ -11,13 +11,14 @@
 if(!file.exists("./data")){dir.create("./data")}
 
 #
-  if(!file.exists("./data/UCI HAR Dataset")){
-              fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-              download.file(fileUrl,destfile="./data/Dataset.zip")
-              unzip(zipfile="./data/Dataset.zip",exdir="./data")
-              path_rf <- file.path("./data" , "UCI HAR Dataset")
-              files<-list.files(path_rf, recursive=TRUE)
-  }
+
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download the zip file in the the ./data directory             
+download.file(fileUrl,destfile="./data/Dataset.zip")
+#Unzip the file in ./UCI HAR Dataset directory
+unzip(zipfile="./data/Dataset.zip",exdir="./data")
+path_rf <- file.path("./data" , "UCI HAR Dataset")
+
 
 #.Read data from the files into the variables
 
@@ -63,9 +64,7 @@ Data<-subset(Data,select=selectedNames)
 #Read descriptive activity names from "activity_labels.txt"
 activityLabels <- read.table(file.path(path_rf, "activity_labels.txt"),header = FALSE)
 
-#In the former part, variables activity and subject and names of 
-#the activities have been labelled using descriptive names.In this part, Names of Feteatures
-#will labelled using descriptive variable names.
+#Label using descriptive variable names.
 
 #prefix t is replaced by time
 #Acc is replaced by Accelerometer
