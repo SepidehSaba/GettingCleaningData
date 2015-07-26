@@ -26,4 +26,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * As an out put a tidy data set will be created in the current `./data` directory called `tidydata.txt`
 	 
 ## Dependencies 
-	In order to run the this project you will need to install `plyr` package in R Studio
+In order to run the this project you will need to install `plyr` package in R Studio
