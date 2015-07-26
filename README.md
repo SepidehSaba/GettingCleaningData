@@ -17,10 +17,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 	
-	*Add `run_analysis.R` source the `run_analysis.R` provided in you r working directory directory in R Studio
-		 `source('~/run_analysis.R')`
-	*The Code will create a directory in the current R working directory called `data`
+*Add `run_analysis.R` source the `run_analysis.R` provided in you r working directory directory in R Studio
+		`source('~/run_analysis.R')`
+*The Code will create a directory in the current R working directory called `data`
 	
-	* `run_analysis.R` will download a zip file called `Dataset.zip` from provided link at the top in the `./data` working directory
-	* unzipped files are in the folderUCI HAR Dataset
+* `run_analysis.R` will download a zip file called `Dataset.zip` from provided link at the top in the `./data` working directory
+* unzipped files are in the folderUCI HAR Dataset
 	 
