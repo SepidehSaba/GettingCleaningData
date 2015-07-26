@@ -1,9 +1,9 @@
 ###Codebook
 
-#The data source
+#The Data Source
 
-    Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-    Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Original data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
 #Data Set Information
@@ -52,7 +52,7 @@ The following files are available for the train and test data. Their description
 
  We will use `Activity`, `Subject` and `Features` as part of descriptive variable names for data in data frame.
  
-#Dataset structure
+#Dataset structure of Tiday Data
 	str(TidyDataTable)
 	'data.frame':	180 obs. of  68 variables:
 	 $ subject                                       : int  1 1 1 1 1 1 2 2 2 2 ...
